@@ -1,0 +1,1 @@
+# GDScript_LSP_Extension
