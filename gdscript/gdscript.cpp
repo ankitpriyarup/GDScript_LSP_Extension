@@ -972,7 +972,12 @@ void *start_listening(void *vargp) {
 		response += "],";
 		response += "\"names\": ";
 		response += "[";
-		//NAMES HERE
+		response += "{";
+		response += "\"text\": \"Hello World!!\",";
+		response += "\"line\": 4,";
+		response += "\"start\": 1,";
+		response += "\"end\": 5";
+		response += "}";
 		response += "]";
 		response += "}";
         write(new_socket, response.utf8().get_data(), response.length());
