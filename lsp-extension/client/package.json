@@ -1,13 +1,13 @@
 {
-	"name": "lsp-sample-client",
-	"description": "VSCode part of a language server",
-	"author": "Microsoft Corporation",
+	"name": "gdscript-lsp-extension",
+	"description": "Godot GD Script Language Server Extension",
+	"author": "Godot Engine",
 	"license": "MIT",
-	"version": "0.0.1",
-	"publisher": "vscode",
+	"version": "0.4.0",
+	"publisher": "AnkitPriyarup",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/ankitpriyarup/GDScript_LSP_Extension"
 	},
 	"engines": {
 		"vscode": "^1.23.0"
