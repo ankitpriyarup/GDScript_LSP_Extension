@@ -1,4 +1,5 @@
 out
 node_modules
 client/server
+*.vsix
 .vscode-test
