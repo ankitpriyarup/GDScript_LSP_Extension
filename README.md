@@ -118,4 +118,6 @@ if (!initialized_listener) {
 }
 ```
 
-Then build and run the engine first opening an existing or a new game project. Now, open lsp-extension project in visual studio code. Press Ctrl + Shift + B to initiate a build task first. After that, simply run the client and server extension using F5.
+Run npm install in lsp-extension folder, then build and run the engine first opening an existing or a new game project. Now, open lsp-extension project in visual studio code. Press Ctrl + Shift + B to initiate a build task first. After that, simply run the client and server extension using F5.
+
+In case you see Namespace "vscode" has no exported member 'DocumentSymbol' while building the project simple run npm run update-vscode in client folder then again run num install in lsp-extension folder.

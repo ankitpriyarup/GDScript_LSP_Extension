@@ -3,14 +3,14 @@
 	"description": "Godot GD Script Language Server Extension",
 	"author": "Godot Engine",
 	"license": "MIT",
-	"version": "0.4.0",
+	"version": "0.1.0",
 	"publisher": "AnkitPriyarup",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ankitpriyarup/GDScript_LSP_Extension"
 	},
 	"engines": {
-		"vscode": "^1.23.0"
+		"vscode": "^1.26.0"
 	},
 	"scripts": {
 		"update-vscode": "vscode-install",
@@ -20,6 +20,7 @@
 		"vscode-languageclient": "^4.1.4"
 	},
 	"devDependencies": {
-		"vscode": "^1.1.30"
+		"vscode": "^1.1.30",
+		"typescript": "^3.1.3"
 	}
 }

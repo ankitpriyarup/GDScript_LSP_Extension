@@ -1,11 +1,18 @@
 {
-	"name": "gdscript-lsp-demo",
-	"description": "GDScript Language Server Protocol Demo",
-	"version": "1.0.0",
+	"name": "gdscript-lsp-extension",
+	"description": "Godot GD Script Language Server Extension",
+	"author": "Godot Engine",
+	"license": "MIT",
+	"version": "0.1.0",
+	"publisher": "AnkitPriyarup",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ankitpriyarup/GDScript_LSP_Extension"
+	},
 	"categories": [],
 	"keywords": [],
 	"engines": {
-		"vscode": "^1.23.0"
+		"vscode": "^1.26.0"
 	},
 	"activationEvents": [
 		"onLanguage:gdscript"
