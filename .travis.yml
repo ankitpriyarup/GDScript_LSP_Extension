@@ -3,5 +3,5 @@ node_js: "11"
 cache: npm
 
 install:
+  - cd lsp-extension
   - npm install
-  - npm run vscode:prepublish
